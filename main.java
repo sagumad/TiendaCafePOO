@@ -22,6 +22,11 @@ class Main {
         cafeCaturra.actualizarCantidad(7.5);
         cafeCaturra.mostrarInformacion();
         System.out.println("Precio total actualizado: $" + cafeCaturra.calcularPrecioTotal() + " COP");
+        
+        System.out.println("Aplicando descuento del 10% al Café Gesha");
+        cafeGesha.aplicarDescuento(10);
+        cafeGesha.mostrarInformacion();
+
 
     }
 }
